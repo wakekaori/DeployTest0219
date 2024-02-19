@@ -1,5 +1,6 @@
 runtime: python311
-instance_class: B1
+service: deploytest0219
+instance_class: F1
 handlers:
 - url: /.*
   script: auto
