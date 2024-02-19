@@ -7,4 +7,5 @@ def hello():
     return "Hello World"
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8888, threaded=True)
+    app.run(debug=True, threaded=True)
+    # app.run(debug=True, port=8888, threaded=True)
