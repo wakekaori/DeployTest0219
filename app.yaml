@@ -1,0 +1,5 @@
+runtime: python311
+instance_class: B1
+handlers:
+- url: /.*
+  script: auto
